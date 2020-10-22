@@ -31,7 +31,40 @@
   flex-wrap: wrap;
 }
 
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  width: 100%;
+  /* background-color: #24599d;
+  border-top-color: #24599d; */
+}
+
+.social-media1 .card {
+  background-color: #24599d;
+  border-top-color: #24599d;
+}
+
+.social-media2 .card {
+  background-color: #55adee;
+  border-top-color: #55adee;
+}
+
+.social-media3 .card {
+  background-image: linear-gradient(to right, #fdb44c, #d82c75, #9e37b8);
+  border-top-color: #c72c7c;
+}
+
+.social-media4 .card {
+  background-color: #d4101d;
+  border-top-color: #d4101d;
+}
+
 .social-media1 {
+  overflow: hidden;
+  position: relative;
   margin-top: 24px;
   padding: 20px;
   width: 170px;
@@ -41,11 +74,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f1f3fa;
-  border-top-color: #24599d;
-  border-top-width: 8px;
 }
 
 .social-media2 {
+  overflow: hidden;
+  position: relative;
   margin-top: 24px;
   padding: 20px;
   width: 170px;
@@ -55,11 +88,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f1f3fa;
-  border-top-color: #55adee;
-  border-top-width: 8px;
 }
 
 .social-media3 {
+  overflow: hidden;
+  position: relative;
   margin-top: 24px;
   padding: 20px;
   width: 170px;
@@ -69,11 +102,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f1f3fa;
-  border-top-color: #c72c7c;
-  border-top-width: 8px;
 }
 
 .social-media4 {
+  overflow: hidden;
+  position: relative;
   margin-top: 24px;
   padding: 20px;
   width: 170px;
@@ -83,8 +116,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f1f3fa;
-  border-top-color: #d4101d;
-  border-top-width: 8px;
 }
 
 .social-media1:hover {
@@ -124,7 +155,7 @@
   flex-basis: 40%;
   background-color: #fff;
   background: url("./assets/twit.png") no-repeat bottom right;
-  background-size: 20px;
+  background-size: 25px;
   background-position: right;
   font-size: 12px;
 }
@@ -146,7 +177,7 @@
   flex-basis: 40%;
   background-color: #fff;
   background: url("./assets/yutub.png") no-repeat bottom right;
-  background-size: 20px;
+  background-size: 25px;
   background-position: right;
   font-size: 12px;
 }
@@ -277,9 +308,16 @@
   padding-left: 5px;
 }
 
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 .col2 {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .logo1 {
@@ -299,7 +337,7 @@
 .logo3 {
   height: 50px;
   background: url("./assets/twit.png") no-repeat top right;
-  background-size: 20px;
+  background-size: 25px;
   background-position: right;
   margin-bottom: 24px;
 }
@@ -307,7 +345,7 @@
   height: 50px;
 
   background: url("./assets/yutub.png") no-repeat top right;
-  background-size: 20px;
+  background-size: 25px;
   background-position: right;
   margin-bottom: 24px;
 }
@@ -322,7 +360,7 @@
 .todayGrowthArrowup {
   width: 80px;
   background: url("./assets/green.png") no-repeat bottom right;
-  background-size: 8px;
+  background-size: 7px;
   background-position: right;
   flex-basis: 8%;
 }
@@ -330,7 +368,7 @@
 .todayGrowthArrowdown {
   width: 80px;
   background: url("./assets/redarrow.png") no-repeat bottom right;
-  background-size: 8px;
+  background-size: 7px;
   background-position: right;
   flex-basis: 8%;
 }
