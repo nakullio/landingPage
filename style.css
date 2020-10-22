@@ -13,6 +13,20 @@
   justify-content: space-between;
 }
 
+.bigCard {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  background-color: #f7f9ff;
+  z-index: -1;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
 .dashboard-name .dashboardTitle {
   font-size: 24px;
   font-weight: 100;
@@ -38,8 +52,6 @@
   right: 0;
   height: 5px;
   width: 100%;
-  /* background-color: #24599d;
-  border-top-color: #24599d; */
 }
 
 .social-media1 .card {
